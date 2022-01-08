@@ -1,6 +1,6 @@
 # Visualize-YOLOv4-cfg
 YOLOv4のcfgファイルを分かりやすく視覚化する
-(darknet:https://github.com/AlexeyAB/darknet)
+(darknet : https://github.com/AlexeyAB/darknet)
 
 YOLOv4のcfgファイルの中身を読み解きたかったので作成
 
