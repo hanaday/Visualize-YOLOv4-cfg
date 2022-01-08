@@ -14,4 +14,5 @@ YOLOv4のcfgファイルの中身を読み解きたかったので作成
 
 実際に生成された画像 (https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg より作成)
 
-![yolov4_cfg](https://user-images.githubusercontent.com/79752527/148653545-9cf5db19-f769-48a1-a0f3-6056257e9fdc.png)
+
+![yolov4_cfg](https://user-images.githubusercontent.com/79752527/148654137-137643e8-51e4-4abf-bc02-70b21eddb92b.png)
