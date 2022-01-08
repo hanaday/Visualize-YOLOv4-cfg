@@ -61,7 +61,7 @@ class Color():
     self.pool = (100, 100, 255)    # max/avgpool層の色
     self.upsample = (144, 238, 144)    # upsample層の色
     self.dropout = (238, 130, 238)    # dropout層の色
-    self.connected = (150, 150, 255)    #全結合層の色
+    self.connected = (150, 150, 255)    #connected層の色
     self.cost = (255, 191, 0)    # cost層の色
     self.any = self.white    #上記にない他の層の色
     self.route_c = self.black    # routeの円の色
