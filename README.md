@@ -1,5 +1,6 @@
 # Visualize-YOLOv4-cfg
 YOLOv4のcfgファイルを分かりやすく視覚化する
+(darknet:https://github.com/AlexeyAB/darknet)
 
 YOLOv4のcfgファイルの中身を読み解きたかったので作成
 
@@ -11,6 +12,6 @@ YOLOv4のcfgファイルの中身を読み解きたかったので作成
 - covolution層の長方形の内側に書かれている数字がフィルターの数で、外側に書かれているのが画像サイズの大きさ（画像サイズは縦と横が同じ大きさと想定）
 - 黒色の線がroute、赤色の線がshortcut、青色の線がscale_channnels、緑色の線がsamの繋がりを表している
 
-実際に生成された画像
+実際に生成された画像 (https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg より作成)
 
 ![yolov4_cfg](https://user-images.githubusercontent.com/79752527/148653545-9cf5db19-f769-48a1-a0f3-6056257e9fdc.png)
