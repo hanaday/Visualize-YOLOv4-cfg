@@ -381,7 +381,7 @@ for i in range(1, len(layers)):
     num_param = re.split('from=', param[i][0])[1]
     if layers[i+int(num_param)] == '[shortcut]':
       connect_flag = True
-    list_img_size[i] = list_img_size[i+int(num_param)-1]
+    list_img_size[i] = list_img_size[i+int(num_param)]
     img = img_shortcut(img, int(num_param), connect_flag)
     continue
   elif layers[i] == "[scale_channels]":
@@ -389,7 +389,7 @@ for i in range(1, len(layers)):
     num_param = re.split('from=', param[i][0])[1]
     if layers[i+int(num_param)] == '[shortcut]':
       connect_flag = True
-    list_img_size[i] = list_img_size[i+int(num_param)-1]
+    list_img_size[i] = list_img_size[i+int(num_param)]
     img = img_scale_channels(img, int(num_param), connect_flag)
     continue
   elif layers[i] == "[sam]":
@@ -397,7 +397,7 @@ for i in range(1, len(layers)):
     num_param = re.split('from=', param[i][0])[1]
     if layers[i+int(num_param)] == '[shortcut]':
       connect_flag = True
-    list_img_size[i] = list_img_size[i+int(num_param)-1]
+    list_img_size[i] = list_img_size[i+int(num_param)]
     img = img_sam(img, int(num_param), connect_flag)
     continue
   else:
@@ -415,7 +415,7 @@ for i in range(1, len(layers)):
 #画像を表示する
 cv2_imshow(img)    # google colab用
 #画像を保存する
-#cv2.imwrite(savw_path, img)    # save_pathに画像を保存する場所を書く
+#cv2.imwrite(sav_path, img)    # save_pathに画像を保存する場所を書く
 
 # routeの線がどのように繋がっているかの確認用
 #import matplotlib.pyplot as plt
